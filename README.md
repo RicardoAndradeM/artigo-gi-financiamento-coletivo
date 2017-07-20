@@ -6,6 +6,6 @@ Artigo sobre Crowdfunding/Financiamento coletivo para disciplina de Gerencua da 
 + Danielle de Lima Vieira
 + Damião Robson Domiciano
 + Adísio Pereira Fialho Júnior
-+ Nome Completo de Lucas aqui
++ Lucas Venancio Duarte
 
 ## [Link para slide](https://docs.google.com/presentation/d/1E5Aa5tob5RPJpYxXdKqa_NZajvRhP_TBwyGARv4Rmac/edit?usp=sharing "Clique qui")
