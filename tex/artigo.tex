@@ -137,17 +137,16 @@
 \begin{abstractbox}
 	
 \begin{abstract} 
-Escrever no máximo $150$ palavras no resumo do trabalho. Exemplo: The objective of this work is to determine if people are interacting in TV video by detecting whether they are looking at each other or not.We determine both the temporal period of the interaction and also spatially localize the relevant people. We make the following four contributions: (\textit{i}) head detection with implicit coarse pose information (front, profile, back); (\textit{ii}) continuous head pose estimation in unconstrained scenarios (TV video) using Gaussian process regression; (\textit{iii}) propose and evaluate several methods for assessing whether and when pairs of people are looking at each other in a video shot; and (\textit{iv}) introduce new ground truth annotation for this task, extending the TV human interactions dataset. The performance of the methods is evaluated on this dataset, which consists of $300$ video clips extracted from TV shows. Despite the variety and difficulty of this video material, our best method obtains an average precision of $87.6\%$ in a fully automatic manner.
+Este artigo busca situar os conceitos de financiamento coletivo, mais conhecido pelo termo crowdfunding, O termo é usado para designar o financiamento coletivo através de sites para a concretização de projetos variados. Dessa forma, o estudo aborda diversos aspectos relacionados aos sistemas de crowdfunding, como as motivações envolvidas e sua aplicação como possibilidade de financiamento para a concretização de projetos em diferentes áreas, além das atuais plataformas de crowdfunding no Brasil e no mundo.
 \end{abstract}
 
 %--------------------------------------------------------------------------------------------------
 % Palavras-chaves: Entre 3 e 6 palavras chaves
 %--------------------------------------------------------------------------------------------------
 \begin{keyword}
-  \kwd{Escreva}
-  \kwd{algumas}
-  \kwd{palavras-chaves}
-  \kwd{aqui!}
+  \kwd{Financiamento coletivo}
+  \kwd{Internet}
+  \kwd{Inovação}
 \end{keyword}
 
 \end{abstractbox} % Não alterar
@@ -162,82 +161,179 @@ Escrever no máximo $150$ palavras no resumo do trabalho. Exemplo: The objective
 %------------------------------------------------
 \section{Introdução}
 
-Escreva introdução e motivação do seu trabalho. Tente convencer o leitor da importância da sua pesquisa. Exemplo: If you read any book on film editing or listen to a director's commentary on a DVD, then what emerges again and again is the importance of eyelines. Standard cinematography practice is to first establish which characters are looking at each other using a medium or wide shot, and then edit subsequent close-up shots so that the eyelines match the point of view of the characters. This is the basis of the well known $180^{o}$ rule in editing.
+A organização da sociedade em redes é um processo antigo, que foi remodelado com a utilização da internet. A facilidade de conexão com milhões de pessoas e a formação de grupos está provocando mudanças na economia, comportamento e outros aspectos da sociedade. A queda dos custos transacionais faz com que ocorra um aumento do número de experimentos com novos grupos se formando e dando vazão a um “instinto humano básico: ser parte de um grupo que compartilha, coopera ou atua de comum acordo” (SHIRKY, 2012).
 
-The objective of this paper is to determine whether eyelines match between characters within a shot—and hence understand which of the characters are interacting~\cite{Pressman:2007}. The importance of the eyeline is illustrated by the three examples of Figure~\ref{tag_figura_01} - one giving rise to arguably the most famous quote from Casablanca, and another being the essence of the humour at that point in an episode of Fawlty Towers. Our target application is this type of edited TV video and films. It is very challenging material as there is a wide range of human actors, camera viewpoints and ever present background clutter. The thirty Brodatz textures u asl sklsksj slk slk dsed are shown in Figure~\ref{tag_figura_01}.
+Neste novo contesto social e econômico, o fenômeno do crowdfunding tem ganhado cada vez mais espaço e visibilidade. Sendo assim, imagine um indivíduo ou grupo com ótimas ideias para um novo jogo, o roteiro de um filme, um livro, entre outros vários projetos possíveis, mas que não possuem capital suficiente ou investidores que possibilitem o desenvolvimento deste projeto. Em face desta limitação, grandes iniciativas podem se perdidas ao longo do tempo por falta de financiamento e oportunidade. Desta forma, surgiu o crowdfunding, como uma ferramenta para incentivar novas ideias à saírem do papel através do apoio coletivo, como um modelo de financiamento com base na web que vem ajudando vários criadores ao redor do mundo a dar vida aos seus projetos.
 
-begin
-\begin{figure}[h!]
-  \begin{center}
-    \includegraphics[width=1.0 \textwidth]{figura01.jpg}
-    \caption{Exemplo de uma imagem bitmap.} 
-    \label{tag_figura_01}
-  \end{center}
-\end{figure}
+Popularizado, graças ao crescente uso da internet, o termo crowdfunding significa em português “financiamento pela multidão”, ou financiamento coletivo, como é mais conhecido popularmente. Um tipo de modelo de negócios onde as pessoas se juntam para financiar um determinado projeto, às vezes em troca de algum tipo de retorno, brinde ou mesmo a compra antecipada por um preço mais em conta do produto financiado, as vezes apenas pelo prazer de ajudar o projeto a ganhar vida.
 
-Gray level co-occurrence matrix (GLCM)~\cite{Ferris:2003} describes the relative frequencies with which two pixels separated by a distance $d$ under a specified angle occur on the image. Then, the GLCM matrices are pre-processed in order to obtain input data for the clustering or classification modules. In the Clustering module the SOM neural network organises and extracts prototypes from the processed matrices, which ends the learning stage. The classification module receives a pre-processed query image and compares it with the prototypes (representations of clusters) obtained in the clustering module. The final result is a list of images belonging to a few number of clusters considered to be the nearest to the user's query. Figure~\ref{tag_figura_02} shows these building blocks.
+Contudo, esta não é uma ideia nova: Antes mesmo de existir a Internet e até mesmo energia elétrica, o autor Alexander Pope já buscava ajuda do financiamento coletivo para tentar traduzir alguns poemas gregos para o inglês. Isso lá no século XVIII.
 
-\begin{figure}[h!]
-  \begin{center}
-    \includegraphics[width=1.0 \textwidth]{resultado.pdf}
-    \caption{Exemplo de diagrama ou gráfico utilizando uma imagem vetorial.} 
-    \label{tag_figura_02}
-  \end{center}
-\end{figure}
+No entanto, o advento da internet auxiliou bastante esse processo ao facilitar a conexão entre quem tem a ideia e quem se dispõe a pagar por ela, além da possibilidade de pagamento através dos cartões de crédito e serviços de bankline.
+
+Mas para entender melhor sobre essa parte do pagamento, primeiro faz-se necessário entender como o crowdfunding, de fato, funciona.
+
+O conceito é bastante simples: primeiramente é criada uma campanha on-line, na maioria das vezes através de alguma plataforma. Nela, são fornecidas informações sobre o projeto, tais como: custo, tempo de desenvolvimento, de que forma as pessoas podem colaborar e o que elas receberão em retorno por participarem do financiamento, com produtos ou benefícios que esse investimento retornará para a sociedade como um todo. Caso estejam todos os processos formais de inicialização de acordo com o processo de arrecadação de fundos pelo sistema de crowdfunding, a campanha é divulgada através de ferramentas de divulgação, como as redes sociais, e então é dado um tempo para arrecadação de recursos, enquanto os desenvolvedores da ideia podem observar o andamento das arrecadações, torcendo para conseguirem conseguir alcançar a meta para porem o processo de desenvolvimento o projeto.
 
 %------------------------------------------------
 % Seção 2
 %------------------------------------------------
-\section{Motivação}
+\section{Como criar uma campanha de crowdfunfing}
 
-If we assume that sensitive cells follow a deterministic decay $Z_0(t) = xe^{\lambda_0 t}$ and approximate their extinction time as $T_x \approx \frac{1}{\lambda_0} \log x$, then we can heuristically estimate the expected value as:
+\subsection{Primeiro passo: a ideia}
 
-\begin{eqnarray}
-\label{eqexpmuts}
-  E [Z_1(vT_x)] &=& \frac{\mu}{r}\log x \int_0^{1} x^{1-u} du \\
-  E [Z_1(vT_x)] &=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log  \\
-  1 &=& 10
-\end{eqnarray}
+Antes de tudo, é necessário conhecer ao certo os objetivos e etapas de implementação do projeto. Definir passo a passo tudo que será feito com o investimento, além de ser um projeto bem definido burocraticamente, para que não haja dúvidas entre os investidores (pessoas que queiram investir no projeto). Se for um disco, por exemplo, deve-se informar qual é o estilo musical e onde o cantor (ou banda) pretende gravar as faixas, se for um aparelho, deve-se explicar suas funcionalidades e se for um livro, informar sobre o tema da história, quem fará a capa, entre outros dados.
 
-\begin{equation}
-  E [Z_1(vT_x)] = \frac{\mu}{r}\log x \int_0^{1} x^{1-u} du \\
-  E [Z_1(vT_x)] = \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log 
-\end{equation}
+\subsection{Segundo passo: o planejamento}
 
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{Rosenfeld:1970}).
+Ter uma boa ideia não é suficiente se não houver planejamento antes de sua execução. Como exemplo, um aplicativo irá precisar de programadores e designers, e, se for um filme, vai precisar de câmeras, editores, iluminadores e vários outros profissionais e também quanto tempo levará para que o projeto seja desenvolvido, tomando-se o cuidado de não prometer prazos que não possam ser cumpridos.
 
-%------------------------------------------------
-% Sub-seção
-%------------------------------------------------
-\subsection{Exemplo de Sub-Seção}
+\subsection{Terceiro passo: o dinheiro}
 
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In addition, we examine a common modeling assumption and note the importance of considering the tails of the extinction time $T_x$ in studies of escape dynamics. We will first consider the expected resistant population at $vT_x$ for some $v>0$, (and temporarily assume $\alpha=0$).
+Levantamento de custo. Planejar bem o quanto será necessário para entregar o seu produto com o máximo de qualidade possível e dentro do prazo estipulado. Aproveitando também para fazer uma pesquisa de mercado e ver se o valor cobrado pelo produto está na média de outros do mesmo estilo. Por fim, calcular a taxa que a plataforma de crowdfunding vai descontar da arrecadação total.
 
-\begin{eqnarray}
-E [Z_1(vT_x)]= \mu T_x \int_{0}^{\inf} \lambda_1T_x(v-u)du
-\end{eqnarray}
+\subsection{Quarto passo: divulgação}
 
-If we assume that sensitive cells follow a deterministic decay $Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as $T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically estimate the expected value as.
+Com tudo pronto é hora de divulgar o projeto para o mundo. Criar uma fanpage e anúncios em redes sociais como o Facebook, Twitter, Instagram e outras, para promover a ideia mais amplamente. Quanto maior e melhor for a estratégia de divulgação, mais fácil será a captação dos recursos necessários.
 
 %------------------------------------------------
-% Exemplo de Tabela
+% Seção 3
 %------------------------------------------------
-\section{Exemplo de Tabela}
+\section{Forças do modelo de crowdfunding}
 
-Table~\ref{tag_tabela_01} shows the average $ \alpha $ and the standard deviation for the CCR \cite{Rosenfeld:1970} obtained by the \textit{GLCM+SOM} method. We can conclude that for the Brodatz dataset~\cite{Domingues:2010} the processing tool based on mean vectors is the best option~\cite{Rosenfeld:1970, Diday:1989}. Considering this result~\cite{Visible:2013}, the mean vector approach is adopted as processing tool of the \textit{GLCM+SOM} method for the next experiments \cite{Fulano:2009}.
+\subsection{Comprovação de mercado}
 
-% Use a ferramenta para criar tabelas: http://www.tablesgenerator.com/
-\begin{table}[h!]
-\label{tag_tabela_01}
-\caption{Sample table title. This is where the description of the table should go.}
-  \begin{tabular}{cccc}
-  \hline
-       & B1   & B2   & B3   \\ \hline
-   A1  & 0.1  & 0.2  & 0.3  \\
-   A2  & ...  & ..   & .    \\
-   A3  & ..   & .    & .    \\ \hline
-  \end{tabular}
-\end{table}
+Sites de Crowdfunding se tornaram um grande destino de compradores conhecidos como “early-adopters” e já se tornaram mecanismos de financiamento bem conhecidos pela sociedade de uma maneira geral. Um dos principais benefícios para quem coloca um projeto em uma campanha de crowdfunding é esse: a comprovação de mercado. Pois, quem possui dúvidas sobre as chances do novo produto ter boa aceitação no mercado poderá saná-las, afinal, se existem pessoas que pagariam para ter a sua ideia em mãos é porque ela tem uma grande oferta de mercado.
+
+\subsection{Produção sob encomenda}
+
+Outro benefício do crowdfunding vem do fato de permitir saber exatamente quantos produtos deverão ser fabricados em uma primeira tiragem ou versão, já que só quem pagou receberá o item.
+
+\subsection{Equity crowdfunding}
+
+Outro benefício do modelo de financiamento coletivo é mais direcionado para quem tem uma boa ideia de negócio e não necessariamente um produto. Esse benefício se chama Equity crowdfunding, e na verdade é mais um modelo de crowdfunding onde os empreendedores que buscam algum tipo de investimento podem se cadastrar em plataformas atrás de pequenos investidores.
+
+Através dele, quem procura por pequenos apoios financeiros (como de cem mil reais, por exemplo) pode encontrar ajuda de vários investidores interessados em arriscar em um determinado negócio (como 100 investidores com mil reais em mãos cada um) tornando o processo de captação bem mais simplificado.
+
+%------------------------------------------------
+% Seção 4
+%------------------------------------------------
+\section{Fraquezas do modelo de crowdfunding}
+
+O modelo está sujeito a dois fatores que podem desmotivar usuários e derrubar a reputação de websites de crowdfunding. O fracasso no financiamento de projetos e o mau uso do dinheiro por parte dos donos dos projetos.
+
+
+%------------------------------------------------
+% Seção 5
+%------------------------------------------------
+\section{5. Como obter sucesso com o modelo de crowdfunding?}
+
+Para obter sucesso com este modelo é fundamental que seja feita uma curadoria de qualidade para garantir que o site só aceite e promova projetos com boas chances de financiamento e de correto uso do dinheiro captado (e do envio da recompensa prometida). Outra forma de diferenciação que websites de crowdfunding podem adotar é focar em determinados nichos de mercado.
+
+\subsection{Caso de sucesso}
+
+Lançado em 28 de abril de 2009, o Kickstarter foi a empresa que ajudou a tornar o modelo de crowdfunding famoso no mundo todo. Através dele, 11 milhões de pessoas já ajudaram mais de 107 mil projetos a se tornarem realidade em um total de 2,4 bilhões de dólares financiados. O Kickstarter ajuda artistas, músicos, cineastas, designers e vários outros criadores a encontrarem os recursos e suporte que precisam para transformar suas ideias em realidade. Não importa o tamanho, sejam projetos pequenos ou grandes, a comunidade de apoiadores criada pelo Kickstarter é global.
+
+%------------------------------------------------
+% Seção 6
+%------------------------------------------------
+\section{6. As maiores plataformas de financiamento coletivo no Brasil}
+
+\subsection{Catarse}
+
+Considerado a primeira e maior plataforma de financiamento coletivo do Brasil, o Catarse está no ar desde o começo de 2011, já tendo agraciado mais de 2500 projetos, responsáveis por levantar mais de 44 milhões de reais investidos por mais de 280 mil pessoas.
+
+\subsection{Kickante}
+
+Com uma pegada de crowdfunding um pouco mais social, o Kickante já lançou mais de 19 mil campanhas responsáveis por angariar para lá de 22 milhões de reais em toda a plataforma.
+
+\subsection{Vakinha}
+
+Apesar de ter sido lançado oficialmente dois anos depois do Catarse, a ideia do Vakinha não é nada nova.
+
+Criado em 2009 esse site surgiu depois que dois amigos perceberam o perrengue que era juntar a grana de um grande grupo de pessoas para bancar um projeto que no caso eram os presentes de casamento de um dos fundadores da marca.
+
+Agora, mais de 7 anos depois, o Vakinha já conseguiu arrecadar grana para mais de 400 mil projetos cadastrados por lá.
+
+%------------------------------------------------
+% Seção 7
+%------------------------------------------------
+\section{As maiores plataformas de financiamento coletivo no Mundo}
+
+\subsection{Kickstarter}
+
+O Kickstarter é a maior plataforma do mundo: são mais de 2,4 bilhões de dólares arrecadados ao longo de 5 anos para mais de 106 mil projetos. Entre eles os famosos Óculos Rift (comprado posteriormente pelo Facebook) e até o filme baseado na série The Veronica Mars (que arrecadou mais de 5 milhões de verdinhas em sua campanha).
+
+\subsection{Indiegogo}
+
+Favorito dos produtos de curtas e filmes independentes, o Indiegogo é o responsável por ter dado vida a projetos como o aclamado Hardcore Henry (filme totalmente filmado em primeira pessoa com ajuda de algumas GoPros) e Lazer Team, responsável por arrecadar quase 2 milhões e meio de dólares em menos de 2 semanas.
+
+\subsection{Rockethub}
+
+Fundado em 2009 em Nova York, o Rockethub é um tipo de plataforma de crowdfunding que inicialmente atendia mais a projetos de tecnologia e ciência, no entanto, com o passar do tempo ele foi se transformando em um sistema mais aberto voltado a projetos educacionais que já atendeu a dezenas de milhares de instituições ao redor do mundo.
+
+Além de ajudar a milhares de empreendedores ao redor do mundo, o financiamento coletivo também tem feito à diversão de muitos apoiadores por aí, seja através de games, discos e até filmes extremamente interessantes.
+
+%------------------------------------------------
+% Seção 8
+%------------------------------------------------
+\section{Ideias que já ganharam vida com esse modelo de negócio}
+
+Com o poder de ajudar a dar vida a produtos extremamente interessantes, as plataformas de financiamento coletivo têm trazido à tona diversos projetos que talvez jamais tivessem alguma chance no mercado convencional, mas que depois de prontos muitas das vezes comprovam ser verdadeiros sucessos.
+
+\subsection{Livros e HQs}
+
+Lançado em maio de 2016, o projeto para o livro Contos de fadas originais, da produtora Marina Avila, pedia R\$2.950 para ganhar vida (através do Catarse). No entanto bastou pouco mais de um mês para essa quantia ultrapassar em mais de 100\% a meta, sendo um ótimo exemplo de case de sucesso literário do financiamento coletivo no país.
+
+\subsection{Discos}
+
+Dos capixabas do Dead Fish até os gaúchos do Apanhador Só, o que não falta no Brasil são bandas que conseguiram produzir seus discos graças ao crowdfunding.
+
+\subsection{Filmes}
+
+Considerado um dos maiores autores da atualidade, o norte-americano Chuck Palahniuk tem vários best-sellers em sua carreira, no entanto talvez nenhum deles tenha o mesmo sucesso de Clube da Luta, livro que teve a fama ampliada graças à versão Cult dos cinemas lá do final da década de 90.
+
+Com um nome desse no currículo, Palahniuk não pensou duas vezes ao planejar a adaptação de outra de suas obras (Cantiga de Ninar): apostou todas as fichas em uma campanha do Kickstarter.
+
+Em menos de 2 semanas mais de 3 mil pessoas arrecadaram os 250 mil dólares necessários para dar início a essa aguardada produção.
+
+\subsection{Podcasts}
+
+Considerado o podcast de maior sucesso da história, o Serial precisava de uma certa graninha para fazer a sua segunda temporada. E aí não teve jeito: lá foram os produtores recorrer à uma campanha de crowdfunding para dar vida à ela. Uma campanha que não apenas funcionou como abriu caminho para que esse modelo de financiamento fosse cogitado para uma possível próxima temporada.
+
+\subsection{Games}
+
+Produzido por uma parte da equipe responsável por clássicos dos games como BioShock e Dead Space (ambos com uma pegada de terror), Perception chamou a atenção da mídia internacional por causa de seu visual e sua história, que narra a vida de uma garota cega que é obrigada a andar por cenários mal assombrados.
+
+O game precisava de 150 mil dólares para ser desenvolvido e arrecadou 168 mil e uns quebrados em pouco mais de 1 mês, se tornando um dos maiores cases de sucesso do Kickstarter.
+
+\subsection{Shows e eventos}
+
+Capazes de levar centenas de milhares de pessoas às ruas todo ano durante o carnaval de Belo Horizonte, o bloco Chama o Síndico em 2016 inovou ao montar uma campanha no Catarse em busca de arrecadar 25 mil reais que viabilizassem a folia nesse ano. Uma quantia que foi batida rapidamente em questão de dias.
+
+%------------------------------------------------
+% Seção 9
+%------------------------------------------------
+\section{Mercado mundial}
+
+O crowdfunding já é muito bem explorado em outros países. Em 2013, o mercado mundial representou U\$ 6 bilhões, sendo que em no ano anterior, foram U\$ 2.66 bilhões. Nos Estados Unidos, um dos principais mercados de financiamento coletivo, 25\% das campanhas lançadas atingem suas metas.
+
+O potencial de crescimento no Brasil é enorme, mas mesmo ainda sendo uma novidade, poucos empreendedores que embarcaram na onda do financiamento coletivo no Brasil conseguem fazer plataformas com diferenciais visionários e que transmitam a confiança necessária para quem investe e para quem está captando recursos para a realização de seus sonhos. Temos também a necessidade de profissionalizar o setor em nosso país. Com essa profissionalização, a tendência é aumentar o número de atletas, artistas e startups que buscam o crowdfunding para conseguir verba de maneira rápida e segura.
+
+Nos Estados Unidos, por exemplo, o crowdfunding já é visto com um importante centro de inovação, lançando diariamente novos produtos, artes e serviços, em campanhas que chegam a coletar US\$ 14 milhões em 60 dias com o financiamento (ou pré-venda). Isso chama a atenção do mercado, de investidores anjos e até mesmo de novos consumidores para as empresas bem sucedidas em crowdfunding.
+
+Algumas plataformas se destacam no quesito inovação e, hoje, já existem aquelas que permitem que o criador receba os fundos captados independentemente de a meta ser alcançada, através da campanha Flexível. O atual cenário econômico e o aumento de desemprego colaboraram indiretamente para a popularidade das plataformas. Os novos pequenos empresários veem nos sites de financiamento coletivo uma forma de provar a demanda por seus produtos ou serviços, partindo de investimento e riscos muito baixos. São plataformas democráticas, que permitem que qualquer pessoa, de qualquer classe, com uma boa ideia chame atenção de um público maior. Conseguindo promover ideias novas, que de outra forma não conseguiriam investimentos de empresários, que procurariam investimentos seguros, assim abrindo novas possibilidades para pessoas que não poderiam nem apresentar suas ideias para grandes empresas. Esse acesso facilitado com o público final foi uma grande virada para o mundo dos negócios.
+
+%------------------------------------------------
+% Seção 10
+%------------------------------------------------
+\section{Considerações Finais}
+
+Como podemos compreender, através do texto acima, o crowdfunging possibilita o desenvolvimento de várias ideias que dificilmente conseguiriam alcançar o público com tanta clareza e rapidez. Essa “nova” abordagem do mercado de investimento proporcionou um grande aumento em projetos que antes não receberiam investimentos, através dos métodos tradicionais que é a apresentação do projeto para as empresas investirem nele. Como as empresas visam mais o seu lucro ou alguma forma de gerar marketing de seu produto para lucrarem, os projetos que elas investiriam seriam aqueles que suprissem suas necessidades. Assim, deixando projetos com características culturais ou ambientais, que não traria retorno lucrativo, eram deixados de lado, empobrecendo e desestimulando esse tipo de iniciativa.
+
+Com a ideia de financiamento foi possível quebrar esse paradigma que impedia o investimento em projetos culturais. Com o público final podendo contribuir para ter acesso a projetos que os beneficiassem culturalmente. E não só os projetos culturais. Através dessa nova forma de arrecadação de recursos abriu um novo mercado de empreendedores que possuem ideias de proporções pequenas, mas também de ideias que não pareceriam interessantes para as indústrias, mas que deram muito certo depois de alcançarem suas metas e desenvolverem seu produto.
+
+Com uma maior facilidade de iniciar uma campanha na plataforma de financiamento coletivo, e sua forma de divulgação podendo ser através dá própria plataforma. Mas, as redes sociais também facilitam muito essa divulgação, atraindo cada vez mais pessoas e startup com novas ideias para esse tipo de arrecadação de recursos.
 
 %--------------------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------------------
