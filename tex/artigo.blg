@@ -1,6 +1,80 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: artigo.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: artigo.aux
 The style file: bmc-mathphys.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: artigo_bibliografia.bib
-Warning--entry type for "Visible:2013" isn't style-file defined
+Warning--entry type for "XAVIER:2016" isn't style-file defined
+--line 44 of file artigo_bibliografia.bib
+Warning--entry type for "PEREIRA:2016" isn't style-file defined
+--line 51 of file artigo_bibliografia.bib
+Warning--entry type for "GAZETA:2017" isn't style-file defined
+--line 58 of file artigo_bibliografia.bib
+Warning--entry type for "BRASIL:2017" isn't style-file defined
+--line 65 of file artigo_bibliografia.bib
+Warning--entry type for "KICKANTE:2017" isn't style-file defined
 --line 72 of file artigo_bibliografia.bib
-(There was 1 warning)
+Warning--I didn't find a database entry for "(BRASIL:2017"
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 9 entries,
+            7128 wiz_defined-function locations,
+            1177 strings with 10709 characters,
+and the built_in function-call counts, 428224 in all, are:
+= -- 84679
+> -- 145
+< -- 91
++ -- 56519
+- -- 80
+* -- 6576
+:= -- 71941
+add.period$ -- 8
+call.type$ -- 9
+change.case$ -- 145
+chr.to.int$ -- 174
+cite$ -- 9
+duplicate$ -- 602
+empty$ -- 1530
+format.name$ -- 108
+if$ -- 112727
+int.to.chr$ -- 1
+int.to.str$ -- 19
+missing$ -- 274
+newline$ -- 237
+num.names$ -- 45
+pop$ -- 309
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 18
+skip$ -- 52548
+stack$ -- 0
+substring$ -- 38256
+swap$ -- 137
+text.length$ -- 161
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 317
+warning$ -- 0
+while$ -- 255
+width$ -- 0
+write$ -- 267
+(There were 6 warnings)
