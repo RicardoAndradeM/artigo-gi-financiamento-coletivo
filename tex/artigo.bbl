@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{17}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -138,6 +138,85 @@ https://www.kickante.com.br/sobre/ - accessed 21-July-2017
 \end{botherref}
 \endbibitem
 
+%%% 10
+\bibitem{VAKINHA:2017}
+\begin{botherref}
+\oauthor{\bsnm{Vakinha}}:
+Quem Somos.
+https://www.vakinha.com.br/quem-somos/ - accessed 22-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{CANALTECH:2017}
+\begin{botherref}
+\oauthor{\bsnm{Downloads}, \binits{U.}}:
+O Que é O Kickstarter?
+https://canaltech.com.br/startup/O-que-e-o-Kickstarter/ - accessed 22-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{ONOFFRE:2017}
+\begin{botherref}
+\oauthor{\bsnm{Leme}, \binits{A.}}:
+Os Maiores Sucessos do Crowdfunding.
+http://www.onoffre.com/artigos/2016/3/14/os-maiores-sucessos-do-crowdfunding -
+  accessed 23-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{Velberan:2017}
+\begin{botherref}
+\oauthor{\bsnm{Velberan}}:
+BLOODSTAINED Mostra Seus Gráficos!
+https://www.youtube.com/watch?v=7IuVRoJIzU8 - accessed 23-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem{SEBRAE:2017}
+\begin{botherref}
+\oauthor{\bparticle{de~Apoio às Micro~e} \bsnm{Pequenas~Empresas.},
+  \binits{S.S.B.}}:
+Pesquisa Mostra Dados do Setor de Crowdfunding No País.
+https://www.sebrae.com.br/sites/PortalSebrae/artigos/pesquisa-mostra-dados-do-setor-de-crowdfunding-no-pais,1c4a999b516ff410VgnVCM1000004c00210aRCRD
+  - accessed 22-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem{ANDRADE:2017}
+\begin{botherref}
+\oauthor{\bsnm{Andrade}, \binits{L.}}:
+A Cada Hora, 87 Mil Dólares São Arrecadados Via Crowdfunding.
+https://meufinanciamentocoletivo.com.br/mercado/cada-hora-87-mil-dolares-arrecadados-crowdfunding/
+  - accessed 23-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem{PASCOAL:2017}
+\begin{botherref}
+\oauthor{\bsnm{Pascoal}, \binits{C.}}:
+A Evolução do Crowdfunding No Brasil e No Mundo.
+https://blog.kickante.com.br/a-evolucao-do-crowdfunding-no-brasil-e-no-mundo/ -
+  accessed 23-July-2017
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem{ALVES:2017}
+\begin{botherref}
+\oauthor{\bsnm{Alves}, \binits{B.C.}}:
+A Seleção Natural do Crowdfunding No Brasil: Hoje Há Mais Arrecadação e
+  Menos Plataformas,.
+http://projetodraft.com/a-selecao-natural-do-crowdfunding-no-brasil-hoje-ha-mais-arrecadacao-e-menos-plataformas
+  - accessed 23-July-2017
+\end{botherref}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -246,6 +325,87 @@ https://www.kickante.com.br/sobre/ - accessed 21-July-2017
   </aug>
   <pubdate>2017</pubdate>
   <note>https://www.kickante.com.br/sobre/ - accessed 21-July-2017</note>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Quem Somos</p></title>
+  <aug>
+    <au><cnm>Vakinha</cnm></au>
+  </aug>
+  <pubdate>2017</pubdate>
+  <note>https://www.vakinha.com.br/quem-somos/ - accessed 22-July-2017</note>
+</bibl>
+
+<bibl id="B11">
+  <title><p>O que é o Kickstarter?</p></title>
+  <aug>
+    <au><snm>Downloads</snm><fnm>U</fnm></au>
+  </aug>
+  <pubdate>2017</pubdate>
+  <note>https://canaltech.com.br/startup/O-que-e-o-Kickstarter/ - accessed
+  22-July-2017</note>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Os maiores sucessos do Crowdfunding</p></title>
+  <aug>
+    <au><snm>Leme</snm><fnm>A</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <note>http://www.onoffre.com/artigos/2016/3/14/os-maiores-sucessos-do-crowdfunding
+  - accessed 23-July-2017</note>
+</bibl>
+
+<bibl id="B13">
+  <title><p>BLOODSTAINED mostra seus Gráficos!</p></title>
+  <aug>
+    <au><cnm>Velberan</cnm></au>
+  </aug>
+  <pubdate>2016</pubdate>
+  <note>https://www.youtube.com/watch?v=7IuVRoJIzU8 - accessed
+  23-July-2017</note>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Pesquisa mostra dados do setor de crowdfunding no país</p></title>
+  <aug>
+    <au><snm>Pequenas Empresas.</snm><fnm>SSB</fnm></au>
+  </aug>
+  <pubdate>2016</pubdate>
+  <note>https://www.sebrae.com.br/sites/PortalSebrae/artigos/pesquisa-mostra-dados-do-setor-de-crowdfunding-no-pais,1c4a999b516ff410VgnVCM1000004c00210aRCRD
+  - accessed 22-July-2017</note>
+</bibl>
+
+<bibl id="B15">
+  <title><p>A cada hora, 87 mil dólares são arrecadados via
+  Crowdfunding</p></title>
+  <aug>
+    <au><snm>Andrade</snm><fnm>L</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <note>https://meufinanciamentocoletivo.com.br/mercado/cada-hora-87-mil-dolares-arrecadados-crowdfunding/
+  - accessed 23-July-2017</note>
+</bibl>
+
+<bibl id="B16">
+  <title><p>A Evolução do Crowdfunding no Brasil e no Mundo</p></title>
+  <aug>
+    <au><snm>Pascoal</snm><fnm>C</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <note>https://blog.kickante.com.br/a-evolucao-do-crowdfunding-no-brasil-e-no-mundo/
+  - accessed 23-July-2017</note>
+</bibl>
+
+<bibl id="B17">
+  <title><p>A seleção natural do crowdfunding no Brasil: hoje há mais
+  arrecadação e menos plataformas,</p></title>
+  <aug>
+    <au><snm>Alves</snm><fnm>BC</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <note>http://projetodraft.com/a-selecao-natural-do-crowdfunding-no-brasil-hoje-ha-mais-arrecadacao-e-menos-plataformas
+  - accessed 23-July-2017</note>
 </bibl>
 
 </refgrp>

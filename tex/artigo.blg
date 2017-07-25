@@ -30,51 +30,66 @@ Warning--entry type for "BRASIL:2017" isn't style-file defined
 --line 65 of file artigo_bibliografia.bib
 Warning--entry type for "KICKANTE:2017" isn't style-file defined
 --line 72 of file artigo_bibliografia.bib
-Warning--I didn't find a database entry for "(BRASIL:2017"
+Warning--entry type for "VAKINHA:2017" isn't style-file defined
+--line 79 of file artigo_bibliografia.bib
+Warning--entry type for "CANALTECH:2017" isn't style-file defined
+--line 86 of file artigo_bibliografia.bib
+Warning--entry type for "SEBRAE:2017" isn't style-file defined
+--line 100 of file artigo_bibliografia.bib
+Warning--entry type for "ANDRADE:2017" isn't style-file defined
+--line 107 of file artigo_bibliografia.bib
+Warning--entry type for "PASCOAL:2017" isn't style-file defined
+--line 114 of file artigo_bibliografia.bib
+Warning--entry type for "ALVES:2017" isn't style-file defined
+--line 121 of file artigo_bibliografia.bib
+Warning--entry type for "ONOFFRE:2017" isn't style-file defined
+--line 128 of file artigo_bibliografia.bib
+Warning--entry type for "Velberan:2017" isn't style-file defined
+--line 142 of file artigo_bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 9 entries,
+You've used 17 entries,
             7128 wiz_defined-function locations,
-            1177 strings with 10709 characters,
-and the built_in function-call counts, 428224 in all, are:
-= -- 84679
-> -- 145
-< -- 91
-+ -- 56519
-- -- 80
-* -- 6576
-:= -- 71941
-add.period$ -- 8
-call.type$ -- 9
-change.case$ -- 145
-chr.to.int$ -- 174
-cite$ -- 9
-duplicate$ -- 602
-empty$ -- 1530
-format.name$ -- 108
-if$ -- 112727
+            1216 strings with 12238 characters,
+and the built_in function-call counts, 851557 in all, are:
+= -- 169204
+> -- 225
+< -- 123
++ -- 113330
+- -- 154
+* -- 12535
+:= -- 142748
+add.period$ -- 16
+call.type$ -- 17
+change.case$ -- 310
+chr.to.int$ -- 182
+cite$ -- 17
+duplicate$ -- 1066
+empty$ -- 2509
+format.name$ -- 204
+if$ -- 224534
 int.to.chr$ -- 1
-int.to.str$ -- 19
-missing$ -- 274
-newline$ -- 237
-num.names$ -- 45
-pop$ -- 309
+int.to.str$ -- 35
+missing$ -- 522
+newline$ -- 381
+num.names$ -- 85
+pop$ -- 598
 preamble$ -- 1
-purify$ -- 36
-quote$ -- 18
-skip$ -- 52548
+purify$ -- 68
+quote$ -- 34
+skip$ -- 105109
 stack$ -- 0
-substring$ -- 38256
-swap$ -- 137
-text.length$ -- 161
+substring$ -- 75633
+swap$ -- 176
+text.length$ -- 291
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 317
+type$ -- 557
 warning$ -- 0
-while$ -- 255
+while$ -- 449
 width$ -- 0
-write$ -- 267
-(There were 6 warnings)
+write$ -- 443
+(There were 13 warnings)
