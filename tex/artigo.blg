@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: artigo.aux
 The style file: bmc-mathphys.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -44,8 +44,10 @@ Warning--entry type for "ALVES:2017" isn't style-file defined
 --line 121 of file artigo_bibliografia.bib
 Warning--entry type for "ONOFFRE:2017" isn't style-file defined
 --line 128 of file artigo_bibliografia.bib
-Warning--entry type for "Velberan:2017" isn't style-file defined
+Warning--entry type for "JOVEMNERD:2017" isn't style-file defined
 --line 142 of file artigo_bibliografia.bib
+Warning--entry type for "CARTASECHORUS:2017" isn't style-file defined
+--line 149 of file artigo_bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -53,43 +55,43 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 17 entries,
             7128 wiz_defined-function locations,
-            1216 strings with 12238 characters,
-and the built_in function-call counts, 851557 in all, are:
-= -- 169204
-> -- 225
-< -- 123
-+ -- 113330
-- -- 154
-* -- 12535
-:= -- 142748
-add.period$ -- 16
+            1216 strings with 12301 characters,
+and the built_in function-call counts, 927789 in all, are:
+= -- 184763
+> -- 223
+< -- 121
++ -- 124097
+- -- 166
+* -- 13377
+:= -- 155321
+add.period$ -- 17
 call.type$ -- 17
-change.case$ -- 310
-chr.to.int$ -- 182
+change.case$ -- 327
+chr.to.int$ -- 176
 cite$ -- 17
-duplicate$ -- 1066
-empty$ -- 2509
+duplicate$ -- 1061
+empty$ -- 2403
 format.name$ -- 204
-if$ -- 224534
+if$ -- 244860
 int.to.chr$ -- 1
 int.to.str$ -- 35
-missing$ -- 522
-newline$ -- 381
+missing$ -- 523
+newline$ -- 380
 num.names$ -- 85
-pop$ -- 598
+pop$ -- 593
 preamble$ -- 1
 purify$ -- 68
 quote$ -- 34
-skip$ -- 105109
+skip$ -- 114877
 stack$ -- 0
-substring$ -- 75633
-swap$ -- 176
-text.length$ -- 291
+substring$ -- 82111
+swap$ -- 175
+text.length$ -- 300
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 557
+type$ -- 558
 warning$ -- 0
-while$ -- 449
+while$ -- 456
 width$ -- 0
-write$ -- 443
-(There were 13 warnings)
+write$ -- 442
+(There were 14 warnings)
